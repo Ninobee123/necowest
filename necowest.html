@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Necowest</title>
+    <link rel="stylesheet" href="necowest.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <!------footer font style-->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">-->
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <a href="#"><img src="images/necowest logo.png" alt="brand logo"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1 class="sheddy">NECOWEST STITCHES</h1>
+        <p>Crafting Elegance, One Stitch at a Time. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa consequatur optio nesciunt </p>
+        <a href="#" class="hero-btn">Book an Appointment</a>
+      </div>
+    </div>
+    <!---------------------pop up---------------->
+    <div class="container-pop">
+      <div id="modelBox">
+        <img src="images/nino.jpeg" width="100%">
+        <div class="offer-text">
+          <h2>Get 15% off</h2>
+          <small>On all Native and Senator wear</small>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloribus, consequatur totam maiores asperiores nostrum</p>
+          <form>
+            <input type="email" placeholder="Email Address">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <img src="images/close.png" class="close-icon" onclick="closeModel()">
+      </div>
+    </div>
+    
+    <!-----------------------About tailor----------------------->
+
+   <div class="about">
+    <h2 class="title">About us preview</h2>
+    <div class="main">
+      <img src="images/free-photo-of-portrait-of-a-man-in-checked-flat-cap-and-a-shirt-black-and-white.jpeg">
+      <div class="about-text">
+        <h1>Shedrach Enato</h1>
+        <h5>Fashion Designer<span> & Builder</span></h5>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum et praesentium corrupti quisquam, assumenda eaque doloribus nihil dignissimos facere tenetur, sequi sapiente beatae incidunt excepturi aperiam aliquam ipsam? Itaque, autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consectetur earum consequatur hic nemo molestiae officiis perspiciatis repellat voluptate aspernatur, dolorum sunt</p>
+        <a type="button" href="#">Read More</a>
+      </div>
+    </div>
+
+   </div>
+ <!-----------------------recent works----------------------->
+<div class="small-container">
+  <h2 class="title">Our Recent Works</h2>
+  <div class="row">
+    <div class="col-2">
+      <img src="images/image-1-crop.jpeg">
+    </div>
+    <div class="col-2"><img src="images/image-2-copy.jpeg"></div>
+    <div class="col-2"><img src="images/image-3-copy.jpeg"></div>
+    <div class="col-2">
+      <img src="images/image-1-crop.jpeg">
+    </div>
+    <div class="col-2"><img src="images/nino.jpeg"></div>
+    <div class="col-2"><img src="images/image-3-copy.jpeg"></div>
+    
+  </div>
+</div>
+
+<!-----------------------Testimonial----------------------->
+ <div class="hero">
+ <h2>Customer Reviews</h2>
+ <div class="review-box">
+<div id="slide">
+  <div class="card">
+    <div class="profile">
+      <img src="images/pic1.jpg">
+      <div>
+        <h3>Happiness Elekpho</h3>
+        <p>Accountant</p>
+      </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur repudiandae inventore quasi rem dolorum blanditiis. Earum qui harum laborum? Ex odit fuga placeat maiores velit eos, voluptas accusantium quae.</p>
+  </div>
+  <div class="card">
+    <div class="profile">
+      <img src="images/pic2.jpg">
+      <div>
+        <h3>Enato Solomon</h3>
+        <p>Civil Engineer</p>
+      </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur repudiandae inventore quasi rem dolorum blanditiis. Earum qui harum laborum? Ex odit fuga placeat maiores velit eos, voluptas accusantium quae.</p>
+  </div>
+  <div class="card">
+    <div class="profile">
+      <img src="images/pic3.jpg">
+      <div>
+        <h3>Lilian Mirabel</h3>
+        <p>Writer</p>
+      </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur repudiandae inventore quasi rem dolorum blanditiis. Earum qui harum laborum? Ex odit fuga placeat maiores velit eos, voluptas accusantium quae.</p>
+  </div>
+  <div class="card">
+    <div class="profile">
+      <img src="images/pic4.jpg">
+      <div>
+        <h3>Promise Elekpho</h3>
+        <p>Manager</p>
+      </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur repudiandae inventore quasi rem dolorum blanditiis. Earum qui harum laborum? Ex odit fuga placeat maiores velit eos, voluptas accusantium quae.</p>
+  </div>
+</div>
+
+
+<div class="sidebar">
+<img src="images/up-arrow.png" id="upArrow">
+<img src="images/down-arrow.png" id="downArrow">
+</div>
+ </div>
+ </div>
+
+<!---------------Footer section----------------->
+<footer class="footer">
+    <div class="footer-1">
+      <h3>USEFULL LINKS</h3>
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">SERVICES</a>
+      <a href="#">GALLERY</a>
+      <a href="#">CONTACT</a>
+     </div>
+     <div class="footer-2">
+      <H3>NEWSLETTER</H3>
+      <form>
+        <input type="email" placeholder="Your Email Address" required> <br>
+        <button type="submit">SUBSCRIBE NOW</button>
+      </form>
+     </div>
+     <div class="footer-3">
+      <H3>CONTACT</H3>
+      <p>Number 12 aligbe street<br>Ekpoma,Edo state,Nigeria </p>
+      <p>Phone: +(234) 90-66298039</p>
+      <p> Email:Necowest@gmail.com</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+     </div>
+     <div class="footer-copyright">
+     </div>
+</footer>
+<small>&copy; 2024 Necowest Stitches. All right reserved</small>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    <!-----------javascript for image slider---------->
+    <script>
+      let slide = document.getElementById("slide");
+      let upArrow = document.getElementById("upArrow");
+      let downArrow = document.getElementById("downArrow");
+
+let x = 0;
+
+upArrow.onclick = function(){
+  if(x > "-900"){
+    x = x-300;
+    slide.style.top = x + "px";
+  }
+
+}
+
+downArrow.onclick = function(){
+  if(x < 0){
+    x = x + 300;
+    slide.style.top = x + "px";
+  }
+
+}
+    
+    </script>
+    <!---------javascript for model popup--------->
+    <script>
+      let modelBox = document.getElementById("modelBox");
+
+      document.onmouseleave = function(){
+        modelBox.style.display = "block";
+      }
+      function closeModel() {
+        modelBox.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
